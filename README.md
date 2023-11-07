@@ -37,4 +37,4 @@ docker-compose build
 
 Start the containers in the Docker Engine.
 
-Your project should now be accessible. For the frontend, open a web browser and navigate to http://localhost:your_frontend_port (e.g., http://localhost:3000).
+Your project should now be accessible. For the front end, open a web browser and navigate to http://localhost:your_frontend_port (e.g., http://localhost:3000).
