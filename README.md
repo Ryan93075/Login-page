@@ -1,35 +1,40 @@
 # Login-page
-# Requirements:
 
-React----> v18 or above, port: 3000
+## Requirements:
 
-Node----->v18 or above
+- React: v18 or above, running on port 3000
+- Node: v18 or above
+- Docker Engine
+- MySQL: Running on port 8081
 
-Docker Engine
+## Install backend dependencies:
 
-MySQL----> Run in port 8081
+To install the backend dependencies, navigate to the "backend" directory and run the following command:
 
-
-# Install backend dependencies:
-
-  ```bash
+```bash
 cd backend
 npm install
 ```
 
-# Install frontend dependencies:
+## Install frontend dependencies:
 
-  ```bash
-  cd ../frontend
-  npm install
-  ```
+To install the frontend dependencies, navigate to the "frontend" directory and run the following command:
 
-# Build Docker images for the backend and frontend:
+```bash
+cd ../frontend
+```
+```bash
+npm install
+```
 
-  ```bash
-  docker-compose build
-  ```
-Start the containers in the docker engine.
+## Build Docker images for the backend and frontend:
 
+To build Docker images for both the backend and frontend, run the following command:
+
+```bash
+docker-compose build
+```
+
+Start the containers in the Docker Engine.
 
 Your project should now be accessible. For the frontend, open a web browser and navigate to http://localhost:your_frontend_port (e.g., http://localhost:3000).
