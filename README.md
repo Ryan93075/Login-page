@@ -13,6 +13,8 @@ To install the backend dependencies, navigate to the "backend" directory and run
 
 ```bash
 cd backend
+```
+```bash
 npm install
 ```
 
