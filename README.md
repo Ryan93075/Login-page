@@ -2,10 +2,10 @@
 
 ## Requirements:
 
-- React: v18 or above, running on port 3000
-- Node: v18 or above
+- React: v18 or above, running on port 3000(default)
+- Node: v18 or above, running on port 3001(default)
 - Docker Engine
-- MySQL: Running on port 8081
+- MySQL: Running on port 8081(default)
 
 ## Install backend dependencies:
 
