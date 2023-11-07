@@ -20,8 +20,6 @@ MySQL----> Run in port 8081
   cd ../frontend
   npm install
 
-# Running with Docker:
-
 # Build Docker images for the backend and frontend:
 
   docker-compose build
