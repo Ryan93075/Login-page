@@ -12,17 +12,23 @@ MySQL----> Run in port 8081
 
 # Install backend dependencies:
 
-  cd backend
-  npm install
+  ```bash
+cd backend
+npm install
+```
 
 # Install frontend dependencies:
 
+  ```bash
   cd ../frontend
   npm install
+  ```
 
 # Build Docker images for the backend and frontend:
 
+  ```bash
   docker-compose build
+  ```
 Start the containers in the docker engine.
 
 
