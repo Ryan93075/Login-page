@@ -2,7 +2,7 @@
 
 ## Requirements:
 
-- React: v18 or above
+- React
 - Node: v18 or above
 - Docker Engine
 - MySQL
