@@ -7,12 +7,12 @@ MySQL----> Run in port 8081
 
 How To Run
 
-1)Install backend dependencies.
+Install backend dependencies:
 
   cd backend
   npm install
 
-Install frontend dependencies.
+Install frontend dependencies:
 
   cd ../frontend
   npm install
